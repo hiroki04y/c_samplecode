@@ -1,19 +1,16 @@
+#include <stdio.h>
+
 void main() {
-	int a = 5;
-	switch (a) {
-	case 0:
-		printf("case == 0");
+	char moji = getchar();
+	switch (moji) {
+	case 'a':
+		printf("input a");
 		break;
-	case 1:
-		printf("case == 1");
-		break;
-	case 2:
-		printf("case == 2");
+	case 'b':
+		printf("input b");
 		break;
 	default:
-		printf("case == default");
+		printf("input other");
 		break;
 	}
-
-	return 0;
 }
