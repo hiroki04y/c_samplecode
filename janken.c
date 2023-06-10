@@ -1,3 +1,5 @@
+//ジャンケンをするサンプルコード
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -5,8 +7,6 @@
 int main() {
     int player_choice, computer_choice;
     int result;
-
-    srand(time(NULL)); // 乱数のシードを初期化
 
     printf("じゃんけんゲーム\n");
     printf("1: グー, 2: チョキ, 3: パー\n");
